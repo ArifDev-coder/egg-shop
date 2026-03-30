@@ -17,7 +17,7 @@ const ContactForm = () => {
     setIsSubmit(true);
 
     try {
-      const text = `https://wa.me/62${NoWa2}?text=┌───────────────┐%0A%20%20%20%20%20*PESAN%20BARU*%0A└───────────────┘%0A%0A*Nama%3A*%20${formData.nama}%0A*Subjek%3A*%20${formData.subjek}%0A%0A*Isi%20Pesan%3A*%0A_____________________%0A%0A${
+      const text = `https://wa.me/${NoWa2}?text=┌───────────────┐%0A%20%20%20%20%20*PESAN%20BARU*%0A└───────────────┘%0A%0A*Nama%3A*%20${formData.nama}%0A*Subjek%3A*%20${formData.subjek}%0A%0A*Isi%20Pesan%3A*%0A_____________________%0A%0A${
         formData.pesan
       }%0A${Date.now()}%0A_____________________`;
 
@@ -107,5 +107,3 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
-
-

@@ -94,11 +94,11 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-3">
               <Phone size={18} className="text-brand-primary" />
-              <span>+62 {PhoneNumberFormat(NoWa1, "-")}</span>
+              <span>+{PhoneNumberFormat(NoWa1, "-")}</span>
             </li>
             <li className="flex items-center gap-3">
               <Phone size={18} className="text-brand-primary" />
-              <span>+62 {PhoneNumberFormat(NoWa2, "-")}</span>
+              <span>+{PhoneNumberFormat(NoWa2, "-")}</span>
             </li>
           </ul>
         </div>
